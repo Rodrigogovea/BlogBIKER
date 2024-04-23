@@ -9,6 +9,7 @@
     --gris: #D2D3DD;
     --error: #B90000;
     --correcto: #4AB900;
+    --naranja: #eb8934;
 }
 
 html{
@@ -80,7 +81,7 @@ img{
 }
 
 .header__registro{
-    background-image: url(../img/sc2-lp-video-preview.webp);
+    background-image: url(../img/cover_reg.jpg);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +96,7 @@ img{
 
 .header__texto--registro{
     text-align: center;
-    color: var(--blanco);
+    color: var(--naranja);
     margin-top: 6rem;
 }
 
@@ -121,7 +122,10 @@ img{
 }
 
 .logo{
-    color: var(--blanco);
+    color: var(--primario);
+}
+.logo-reg{
+    color: var(--naranja);
 }
 
 .logo__nombre{
